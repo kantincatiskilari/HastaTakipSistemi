@@ -263,6 +263,7 @@ namespace HastaTakipSistemi.Forms
             this.btnCikis.TabIndex = 2;
             this.btnCikis.Text = "Çıkış";
             this.btnCikis.UseVisualStyleBackColor = false;
+            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
             // 
             // btnYeniHasta
             // 
@@ -276,6 +277,7 @@ namespace HastaTakipSistemi.Forms
             this.btnYeniHasta.TabIndex = 1;
             this.btnYeniHasta.Text = "Yeni Hasta Kaydı";
             this.btnYeniHasta.UseVisualStyleBackColor = false;
+            this.btnYeniHasta.Click += new System.EventHandler(this.btnYeniHasta_Click);
             // 
             // btnHastaListesi
             // 
@@ -289,6 +291,7 @@ namespace HastaTakipSistemi.Forms
             this.btnHastaListesi.TabIndex = 0;
             this.btnHastaListesi.Text = "Hasta Listesi ve Sorgulama";
             this.btnHastaListesi.UseVisualStyleBackColor = false;
+            this.btnHastaListesi.Click += new System.EventHandler(this.btnHastaListesi_Click);
             // 
             // AnaMenuForm
             // 

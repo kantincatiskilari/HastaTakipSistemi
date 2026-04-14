@@ -79,11 +79,17 @@
     <EmbeddedResource Include="Forms\AnaMenuForm.resx">
       <DependentUpon>AnaMenuForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HastaEkleGuncelleForm.resx">
+      <DependentUpon>HastaEkleGuncelleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HastaForm.resx">
       <DependentUpon>HastaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TeshisForm.resx">
+      <DependentUpon>TeshisForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
