@@ -2,13 +2,36 @@ namespace HastaTakipSistemi.Forms
 {
     partial class AnaMenuForm
     {
+        private System.Windows.Forms.Panel panelUst;
+        private System.Windows.Forms.Label lblTarih;
+        private System.Windows.Forms.Label lblHosgeldin;
+        private System.Windows.Forms.Label lblBaslik;
+        private System.Windows.Forms.Panel panelIstatistik;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel pnlAktif;
+        private System.Windows.Forms.Panel pnlAcil;
+        private System.Windows.Forms.Panel pnlYatan;
+        private System.Windows.Forms.Label lblYatanText;
+        private System.Windows.Forms.Label lblYatan;
+        private System.Windows.Forms.Label lblAcilText;
+        private System.Windows.Forms.Label lblAcil;
+        private System.Windows.Forms.Label lblAktifText;
+        private System.Windows.Forms.Label lblAktif;
+        private System.Windows.Forms.Panel pnlTaburcu;
+        private System.Windows.Forms.Label lblTaburcuText;
+        private System.Windows.Forms.Label lblTaburcu;
+        private System.Windows.Forms.Panel panelButon;
+        private System.Windows.Forms.Button btnCikis;
+        private System.Windows.Forms.Button btnYeniHasta;
+        private System.Windows.Forms.Button btnHastaListesi;
         private System.ComponentModel.IContainer components = null;
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null)) components.Dispose();
             base.Dispose(disposing);
         }
-
+        
         private void InitializeComponent()
         {
             this.panelUst = new System.Windows.Forms.Panel();

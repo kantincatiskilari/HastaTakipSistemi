@@ -1,7 +1,7 @@
 using System;
 using System.Data;
 using System.Windows.Forms;
-using HastaTakipSistemi.DAL;
+using HastaTakipSistemi.Helpers;
 using HastaTakipSistemi.Models;
 
 namespace HastaTakipSistemi.Forms
@@ -9,16 +9,6 @@ namespace HastaTakipSistemi.Forms
    
     public partial class LoginForm : Form
     {
-        private Panel panelUst;
-        private Label lblAltBaslik;
-        private Label lblBaslik;
-        private Label lblKullanici;
-        private TextBox txtKullanici;
-        private TextBox txtSifre;
-        private Label lblSifre;
-        private Button btnGiris;
-        private Label lblHata;
-        private readonly PersonelDAL _personelDAL = new PersonelDAL();
 
         public LoginForm()
         {
@@ -74,8 +64,8 @@ namespace HastaTakipSistemi.Forms
                 return;
             }
 
-           
-            DataRow personel = _personelDAL.GirisDogrula(txtKullanici.Text, txtSifre.Text);
+
+            DataRow personel = DatabaseHelper.GirisDogrula(txtKullanici.Text, txtSifre.Text);
 
             if (personel != null)
             {

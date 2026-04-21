@@ -3,6 +3,8 @@
 // Visual Studio bu dosyayı otomatik üretir.
 // Aşağıdaki kodu kullanabilir veya tasarımcıyla oluşturabilirsiniz.
 // ============================================================
+using System.Windows.Forms;
+
 namespace HastaTakipSistemi.Forms
 {
     partial class LoginForm
@@ -15,6 +17,16 @@ namespace HastaTakipSistemi.Forms
                 components.Dispose();
             base.Dispose(disposing);
         }
+
+        private Panel panelUst;
+        private Label lblAltBaslik;
+        private Label lblBaslik;
+        private Label lblKullanici;
+        private TextBox txtKullanici;
+        private TextBox txtSifre;
+        private Label lblSifre;
+        private Button btnGiris;
+        private Label lblHata;
 
         private void InitializeComponent()
         {

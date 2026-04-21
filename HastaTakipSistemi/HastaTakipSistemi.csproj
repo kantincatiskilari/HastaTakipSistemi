@@ -49,9 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\DatabaseHelper.cs" />
-    <Compile Include="DAL\HastaDAL.cs" />
-    <Compile Include="DAL\PersonelDAL.cs" />
+    <Compile Include="Forms\TeshisGecmisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TeshisGecmisForm.Designer.cs">
+      <DependentUpon>TeshisGecmisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DatabaseHelper.cs" />
     <Compile Include="Forms\AnaMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,8 +65,14 @@
     <Compile Include="Forms\HastaEkleGuncelleForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\HastaEkleGuncelleForm.Designer.cs">
+      <DependentUpon>HastaEkleGuncelleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\HastaForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HastaForm.Designer.cs">
+      <DependentUpon>HastaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
@@ -72,6 +82,9 @@
     </Compile>
     <Compile Include="Forms\TeshisForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TeshisForm.Designer.cs">
+      <DependentUpon>TeshisForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Oturum.cs" />
     <Compile Include="Program.cs" />
@@ -90,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TeshisForm.resx">
       <DependentUpon>TeshisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TeshisGecmisForm.resx">
+      <DependentUpon>TeshisGecmisForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
