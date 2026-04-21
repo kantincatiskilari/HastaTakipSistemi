@@ -79,7 +79,7 @@ namespace HastaTakipSistemi.Forms
             this.lblBaslik.ForeColor = System.Drawing.Color.White;
             this.lblBaslik.Location = new System.Drawing.Point(16, 13);
             this.lblBaslik.Name = "lblBaslik";
-            this.lblBaslik.Size = new System.Drawing.Size(167, 24);
+            this.lblBaslik.Size = new System.Drawing.Size(211, 29);
             this.lblBaslik.TabIndex = 0;
             this.lblBaslik.Text = "Yeni Hasta Kaydı";
             // 
@@ -89,7 +89,7 @@ namespace HastaTakipSistemi.Forms
             this.lblTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblTC.Location = new System.Drawing.Point(24, 68);
             this.lblTC.Name = "lblTC";
-            this.lblTC.Size = new System.Drawing.Size(100, 15);
+            this.lblTC.Size = new System.Drawing.Size(120, 18);
             this.lblTC.TabIndex = 1;
             this.lblTC.Text = "TC Kimlik No *";
             // 
@@ -98,7 +98,7 @@ namespace HastaTakipSistemi.Forms
             this.txtTC.Location = new System.Drawing.Point(24, 88);
             this.txtTC.MaxLength = 11;
             this.txtTC.Name = "txtTC";
-            this.txtTC.Size = new System.Drawing.Size(480, 20);
+            this.txtTC.Size = new System.Drawing.Size(480, 22);
             this.txtTC.TabIndex = 2;
             // 
             // txtAd
@@ -106,7 +106,7 @@ namespace HastaTakipSistemi.Forms
             this.txtAd.Location = new System.Drawing.Point(24, 130);
             this.txtAd.MaxLength = 11;
             this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(480, 20);
+            this.txtAd.Size = new System.Drawing.Size(480, 22);
             this.txtAd.TabIndex = 4;
             // 
             // lblAd
@@ -115,7 +115,7 @@ namespace HastaTakipSistemi.Forms
             this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblAd.Location = new System.Drawing.Point(21, 112);
             this.lblAd.Name = "lblAd";
-            this.lblAd.Size = new System.Drawing.Size(33, 15);
+            this.lblAd.Size = new System.Drawing.Size(39, 18);
             this.lblAd.TabIndex = 3;
             this.lblAd.Text = "Ad *";
             // 
@@ -124,7 +124,7 @@ namespace HastaTakipSistemi.Forms
             this.txtSoyad.Location = new System.Drawing.Point(24, 176);
             this.txtSoyad.MaxLength = 11;
             this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(480, 20);
+            this.txtSoyad.Size = new System.Drawing.Size(480, 22);
             this.txtSoyad.TabIndex = 6;
             // 
             // lblSoyad
@@ -133,7 +133,7 @@ namespace HastaTakipSistemi.Forms
             this.lblSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblSoyad.Location = new System.Drawing.Point(21, 158);
             this.lblSoyad.Name = "lblSoyad";
-            this.lblSoyad.Size = new System.Drawing.Size(56, 15);
+            this.lblSoyad.Size = new System.Drawing.Size(67, 18);
             this.lblSoyad.TabIndex = 5;
             this.lblSoyad.Text = "Soyad *";
             // 
@@ -143,18 +143,18 @@ namespace HastaTakipSistemi.Forms
             this.lblDogum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblDogum.Location = new System.Drawing.Point(20, 209);
             this.lblDogum.Name = "lblDogum";
-            this.lblDogum.Size = new System.Drawing.Size(104, 15);
+            this.lblDogum.Size = new System.Drawing.Size(121, 18);
             this.lblDogum.TabIndex = 7;
             this.lblDogum.Text = "Doğum Tarihi *";
             // 
             // dtpDogum
             // 
-            this.dtpDogum.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpDogum.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDogum.Location = new System.Drawing.Point(24, 237);
             this.dtpDogum.MaxDate = new System.DateTime(2026, 4, 14, 0, 0, 0, 0);
-            this.dtpDogum.MinDate = new System.DateTime(1990, 1, 1, 0, 0, 0, 0);
+            this.dtpDogum.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dtpDogum.Name = "dtpDogum";
-            this.dtpDogum.Size = new System.Drawing.Size(480, 20);
+            this.dtpDogum.Size = new System.Drawing.Size(480, 22);
             this.dtpDogum.TabIndex = 8;
             this.dtpDogum.Value = new System.DateTime(2026, 4, 14, 0, 0, 0, 0);
             // 
@@ -164,7 +164,7 @@ namespace HastaTakipSistemi.Forms
             this.lblTelefon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblTelefon.Location = new System.Drawing.Point(21, 319);
             this.lblTelefon.Name = "lblTelefon";
-            this.lblTelefon.Size = new System.Drawing.Size(55, 15);
+            this.lblTelefon.Size = new System.Drawing.Size(64, 18);
             this.lblTelefon.TabIndex = 11;
             this.lblTelefon.Text = "Telefon";
             // 
@@ -173,7 +173,7 @@ namespace HastaTakipSistemi.Forms
             this.txtTelefon.Location = new System.Drawing.Point(24, 337);
             this.txtTelefon.MaxLength = 15;
             this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(480, 20);
+            this.txtTelefon.Size = new System.Drawing.Size(480, 22);
             this.txtTelefon.TabIndex = 12;
             // 
             // lblDurum
@@ -182,7 +182,7 @@ namespace HastaTakipSistemi.Forms
             this.lblDurum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblDurum.Location = new System.Drawing.Point(20, 370);
             this.lblDurum.Name = "lblDurum";
-            this.lblDurum.Size = new System.Drawing.Size(60, 15);
+            this.lblDurum.Size = new System.Drawing.Size(70, 18);
             this.lblDurum.TabIndex = 13;
             this.lblDurum.Text = "Durum *";
             // 
@@ -197,7 +197,7 @@ namespace HastaTakipSistemi.Forms
             "Taburcu"});
             this.cboDurum.Location = new System.Drawing.Point(23, 388);
             this.cboDurum.Name = "cboDurum";
-            this.cboDurum.Size = new System.Drawing.Size(480, 21);
+            this.cboDurum.Size = new System.Drawing.Size(480, 24);
             this.cboDurum.TabIndex = 15;
             // 
             // lblHata
@@ -206,7 +206,7 @@ namespace HastaTakipSistemi.Forms
             this.lblHata.ForeColor = System.Drawing.Color.Crimson;
             this.lblHata.Location = new System.Drawing.Point(169, 492);
             this.lblHata.Name = "lblHata";
-            this.lblHata.Size = new System.Drawing.Size(0, 13);
+            this.lblHata.Size = new System.Drawing.Size(0, 16);
             this.lblHata.TabIndex = 16;
             // 
             // panelAlt
@@ -252,7 +252,7 @@ namespace HastaTakipSistemi.Forms
             this.lblCinsiyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblCinsiyet.Location = new System.Drawing.Point(24, 414);
             this.lblCinsiyet.Name = "lblCinsiyet";
-            this.lblCinsiyet.Size = new System.Drawing.Size(67, 15);
+            this.lblCinsiyet.Size = new System.Drawing.Size(80, 18);
             this.lblCinsiyet.TabIndex = 9;
             this.lblCinsiyet.Text = "Cinsiyet *";
             // 
@@ -265,7 +265,7 @@ namespace HastaTakipSistemi.Forms
             "Kadın (K)"});
             this.cboCinsiyet.Location = new System.Drawing.Point(23, 432);
             this.cboCinsiyet.Name = "cboCinsiyet";
-            this.cboCinsiyet.Size = new System.Drawing.Size(480, 21);
+            this.cboCinsiyet.Size = new System.Drawing.Size(480, 24);
             this.cboCinsiyet.TabIndex = 10;
             // 
             // cboKanGrubu
@@ -284,7 +284,7 @@ namespace HastaTakipSistemi.Forms
             "0-"});
             this.cboKanGrubu.Location = new System.Drawing.Point(24, 285);
             this.cboKanGrubu.Name = "cboKanGrubu";
-            this.cboKanGrubu.Size = new System.Drawing.Size(480, 21);
+            this.cboKanGrubu.Size = new System.Drawing.Size(480, 24);
             this.cboKanGrubu.TabIndex = 19;
             // 
             // lblKanGrubu
@@ -293,7 +293,7 @@ namespace HastaTakipSistemi.Forms
             this.lblKanGrubu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKanGrubu.Location = new System.Drawing.Point(21, 267);
             this.lblKanGrubu.Name = "lblKanGrubu";
-            this.lblKanGrubu.Size = new System.Drawing.Size(81, 15);
+            this.lblKanGrubu.Size = new System.Drawing.Size(95, 18);
             this.lblKanGrubu.TabIndex = 18;
             this.lblKanGrubu.Text = "Kan Grubu*";
             // 
@@ -340,7 +340,7 @@ namespace HastaTakipSistemi.Forms
             _guncelleModu = false;
         }
 
-        // Güncelleme modu
+        
         public HastaEkleGuncelleForm(int hastaID)
         {
             InitializeComponent();
@@ -354,7 +354,7 @@ namespace HastaTakipSistemi.Forms
             cboKanGrubu.SelectedIndex = 0;
             cboDurum.SelectedIndex = 0;
             dtpDogum.MaxDate = DateTime.Today;
-            dtpDogum.Value = new DateTime(1990, 1, 1);
+            
 
             if (_guncelleModu)
             {
@@ -392,7 +392,7 @@ namespace HastaTakipSistemi.Forms
         {
             lblHata.Text = "";
 
-            // Doğrulama
+            
             if (string.IsNullOrWhiteSpace(txtTC.Text) || txtTC.Text.Trim().Length != 11)
             {
                 lblHata.Text = "TC kimlik numarası 11 hane olmalıdır.";

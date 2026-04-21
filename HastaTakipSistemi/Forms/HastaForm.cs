@@ -250,7 +250,7 @@ namespace HastaTakipSistemi.Forms
             cboDurum.SelectedIndex = 0;
         }
 
-        // ─── DataGridView stil ayarları ───────────────────────────────────
+       
         private void DgvAyarla()
         {
             dgvHastalar.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(41, 128, 185);
@@ -265,7 +265,7 @@ namespace HastaTakipSistemi.Forms
             dgvHastalar.RowTemplate.Height = 28;
         }
 
-        // ─── Veri yükleme ─────────────────────────────────────────────────
+       
         private void HastalarYukle()
         {
             DataTable dt = _hastaDAL.TumHastalariGetir();
@@ -306,7 +306,7 @@ namespace HastaTakipSistemi.Forms
                     col.HeaderText = basliklar[col.Name];
         }
 
-        // ─── Arama ve filtre ──────────────────────────────────────────────
+       
         private void AramaYap()
         {
             string arama = txtArama.Text.Trim();
@@ -368,7 +368,7 @@ namespace HastaTakipSistemi.Forms
             btnTeshisGor.Enabled = aktif;
         }
 
-        // ─── Güncelle ────────────────────────────────────────────────────
+      
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
             if (_seciliHastaID < 0) return;
@@ -377,7 +377,7 @@ namespace HastaTakipSistemi.Forms
             AramaYap();
         }
 
-        // ─── Sil ─────────────────────────────────────────────────────────
+        
         private void btnSil_Click(object sender, EventArgs e)
         {
             if (_seciliHastaID < 0) return;
@@ -401,7 +401,7 @@ namespace HastaTakipSistemi.Forms
             }
         }
 
-        // ─── Teşhis Ekle ─────────────────────────────────────────────────
+        
         private void btnTeshisEkle_Click(object sender, EventArgs e)
         {
             if (_seciliHastaID < 0) return;
@@ -409,7 +409,7 @@ namespace HastaTakipSistemi.Forms
             form.ShowDialog();
         }
 
-        // ─── Teşhis Geçmişi ──────────────────────────────────────────────
+      
         private void btnTeshisGor_Click(object sender, EventArgs e)
         {
             if (_seciliHastaID < 0) return;

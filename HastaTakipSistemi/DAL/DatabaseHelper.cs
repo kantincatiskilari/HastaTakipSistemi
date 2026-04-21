@@ -10,7 +10,7 @@ namespace HastaTakipSistemi.DAL
     {
 
         private static readonly string ConnectionString =
-            "Server=DESKTOP-CDUPO4I;Database=HastaTakipDB;Trusted_Connection=True;TrustServerCertificate=True;";
+            "Server=DESKTOP-8IV7HAR;Database=HastaTakipDB;Trusted_Connection=True;TrustServerCertificate=True;";
 
         public static SqlConnection GetConnection()
         {
